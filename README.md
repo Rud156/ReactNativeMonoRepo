@@ -1,4 +1,4 @@
-## This is a mono repo for some React Native components that I made.
+## This is a mono repo for some React Native components that I've worked on.
 
 > ⚠️ The components are not plug and play. But can be used in other projects easily
 
