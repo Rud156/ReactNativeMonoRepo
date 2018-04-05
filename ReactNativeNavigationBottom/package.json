@@ -1,0 +1,31 @@
+{
+  "name": "ReactInter",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest-react-native": "^18.0.0",
+    "react-test-renderer": "16.2.0"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js",
+    "link": "react-native link",
+    "clean": "cd android && ./gradlew clean",
+    "log:android": "react-native log-android",
+    "log:ios": "react-native log-ios"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "prop-types": "^15.6.1",
+    "react": "16.2.0",
+    "react-native": "0.52.0",
+    "react-native-fontawesome": "^5.7.0",
+    "react-native-vector-icons": "^4.5.0"
+  }
+}
